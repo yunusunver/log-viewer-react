@@ -1,0 +1,114 @@
+.body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+#holder {
+    border: 4px dashed #ccc;
+    height: 100px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#ignoreCaseButton{
+    width: 300px;
+}
+
+
+#logContainer, #issueDesc {
+    font-size: 12px;
+    height: 100%;
+}
+
+#logListTheme{
+    height: 100vh;
+    overflow: auto
+}
+
+#form {
+    height: 15vh;
+}
+#firstDiv{
+    height: 100vh;
+}
+
+#sequenceDiagramRow{
+    height: 85vh;
+    overflow: auto;
+}
+
+#issueDesc {
+    color: red;
+}
+
+#logRecordSelectBox option.completed {
+    background-color: greenyellow;
+}
+
+#logRecordSelectBox option.merged {
+    background-color: green;
+}
+
+#logRecordSelectBox option.assigned {
+    background-color: yellow;
+}
+#diagram{
+    height: 85vh;
+}
+
+.contentHolder {
+    white-space: nowrap;
+}
+
+.content {
+    min-width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    white-space: initial;
+    margin: 2px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #form{
+    position: inherit;
+    margin-left: 30px;
+    width: 500px;
+    height: 70px;
+    border: 4px dashed black;
+  }
+
+   #form p{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 60px;
+    color: black;
+    font-family: Arial;
+  }
+  #form input{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 70px;
+    outline: none;
+    opacity: 0;
+  }
+
+
+/* ul li{
+    background-color: white;
+} */
+
+.signal text:hover {
+    fill: #aaaaaa
+}
+
